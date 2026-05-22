@@ -9,8 +9,25 @@ pipeline {
   stages {
     stage('Checkout') {
         steps {
-          git branch: 'main', url: 
+          git branch: 'main', url: "https://github.com/ppincore/devpe.git"
         }
       }
+    
+    stage('Install') {
+        steps {
+          sh 'npm install'
+        }
+    }
+
+    stage('Build') {
+      steps {
+        sh 'npm install'
+      }
+    }
+    post {
+      always {
+          cleanWs()
+      }
+    }
   }
 }
