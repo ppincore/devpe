@@ -1,0 +1,10 @@
+.mainPage {
+  min-height: calc(100vh - 64px);
+  padding: 45px;
+}
+
+@media (width <= 400px) {
+  .mainPage {
+    padding: 10px;
+  }
+}

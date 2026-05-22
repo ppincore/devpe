@@ -1,0 +1,26 @@
+{
+  "Bogdan Gaevskij": "Богдан Гаевский",
+  "Catch a bug": "Поймать баг",
+  "Email incorrect": "Email неверный",
+  "Email required": "Email обязателен",
+  "Lng": "Ру",
+  "Log Out": "Выход",
+  "Nothing for now, but it’ll be here soon :)": "Сейчас ничего нет, но скоро появится :)",
+  "Password incorrect": "Пароль должен содержать заглавную и строчную буквы, цифру, символ (!@#$%^&*),минимум 8 знаков.",
+  "Password required": "Пароль обязателен",
+  "Passwords miss match": "Пароли не совпадают",
+  "Reload Page": "Обновить страницу",
+  "Sign in": "Войти",
+  "Sign up": "Присоединиться",
+  "Sorry.. there was an error": "Произошла какая-то ошибка...",
+  "Username is required": "Имя пользователя обязательно",
+  "main page": "главная страница",
+  "profileDescription": {
+    "fullDescription": "Меня зовут {{name}}, в интернете меня иногда называют {{nickname}}. Я изучаю {{specializationRu}}, в {{universityRu}}, {{countryRu}}, работаю в MTS Web Services, параллельно борюсь с компьютерами и иногда с демонами. Интересуюсь минимизацией использования чистого JavaScript в своей рабочей среде. В настоящее время изучаю искусство выгорания."
+  },
+  "terms": {
+    "IMSIT": "ИМСИТ",
+    "Russia": "Россия",
+    "computer science": "прикладную информатику"
+  }
+}

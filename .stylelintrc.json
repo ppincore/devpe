@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "custom-property-empty-line-before": "never",
+    "prettier/prettier": [
+      true,
+      {
+        "printWidth": 150
+      }
+    ],
+    "selector-attribute-quotes": "always",
+    "selector-class-pattern": null
+  }
+}

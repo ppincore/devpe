@@ -1,0 +1,26 @@
+{
+  "Bogdan Gaevskij": "Bogdan Gaevskij",
+  "Catch a bug": "Catch a bug",
+  "Email incorrect": "Email incorrect",
+  "Email required": "Email required",
+  "Lng": "En",
+  "Log Out": "Log Out",
+  "Nothing for now, but it’ll be here soon :)": "Nothing for now, but it’ll be here soon :)",
+  "Password incorrect": "Password must include uppercase, lowercase, number, symbol (!@#$%^&), 8+ characters.",
+  "Password required": "Password required",
+  "Passwords miss match": "Passwords miss match",
+  "Reload Page": "Reload Page",
+  "Sign in": "Sign in",
+  "Sign up": "Sign up",
+  "Sorry.. there was an error": "Sorry.. there was an error",
+  "Username is required": "Username is required",
+  "main page": "main page",
+  "profileDescription": {
+    "fullDescription": "My name is {{name}}, some people online call me {{nickname}}. I study {{specializationEn}} at {{universityEn}}, {{countryEn}}, and work at MTS Web Services, while wrestling with computers and the occasional daemon. Interested in minimizing the use of pure JavaScript in my work environment. Currently exploring the art of burnout."
+  },
+  "terms": {
+    "IMSIT": "IMSIT",
+    "Russia": "Russia",
+    "computer science": "computer science"
+  }
+}
