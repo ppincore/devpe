@@ -24,10 +24,10 @@ pipeline {
         sh 'npm install'
       }
     }
-    post {
-      always {
-          cleanWs()
-      }
+  }
+  post {
+    always {
+        cleanWs()
     }
   }
 }
