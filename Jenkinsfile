@@ -1,5 +1,7 @@
 pipeline {
-    agent frontend
+    agent {
+      label 'frontend'
+    }
 
     triggers {
         pollSCM('H/2 * * * *')
