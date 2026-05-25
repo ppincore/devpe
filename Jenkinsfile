@@ -1,6 +1,9 @@
 pipeline {
     agent any
 
+    triggers {
+        pollSCM('H/2 * * * *')
+    }
   environment {
     NODE_VERSION = '24.16.0'
     DOCKER_IMAGE = 'node:${NODE_VERSION}-alpine'
