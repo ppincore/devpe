@@ -19,6 +19,12 @@ pipeline {
         }
     }
 
+    stage('lint') {
+        steps {
+          sh 'npm run lint:ts'
+        }
+    }
+
     stage('Build') {
       steps {
         sh 'npm install'
