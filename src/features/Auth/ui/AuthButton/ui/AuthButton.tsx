@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
 import { Button } from '@shared/ui/Button';
 import { memo, useState } from 'react';
 import { useTranslation } from 'react-i18next';

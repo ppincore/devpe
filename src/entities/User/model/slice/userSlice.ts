@@ -6,12 +6,13 @@ import type { User, UserSchema } from '../types/user';
 const offAuthState: UserSchema = {
   _init: false,
   token: '',
-  userData: {},
+  userData: { userName: '', id: '', email: '', isActivated: false },
 };
 
 // const isAuthDisabled = import.meta.env.VITE_IS_AUTH_DISABLED;
 const isAuthDisabled = false;
 
+// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
 const initialState: UserSchema = isAuthDisabled
   ? offAuthState
   : { _init: false };

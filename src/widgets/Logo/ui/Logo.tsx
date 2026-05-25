@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
 import { TentLogo } from '@shared/assets';
 import { getRouteMain } from '@shared/const/router';
 import { Avatar } from '@shared/ui/Avatar';

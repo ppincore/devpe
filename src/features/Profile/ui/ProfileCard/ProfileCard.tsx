@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
 import { Typography } from '@shared/ui/Typography';
 import { Card } from '@shared/ui/Card';
 import { getUserAuthData } from '@entities/User/model/selectors/selectors';
@@ -32,28 +33,28 @@ export function ProfileCard() {
         style={{ margin: '5px 0 ' }}
         editable={{
           onChange: (value) => {
-            setEditableUser({ ...editableUser, name: value });
+            setEditableUser({ ...editableUser, userName: value });
           },
           onEnd: () => {
-            handleFieldSave('name');
+            handleFieldSave('userName');
           },
         }}
       >
-        {user.name}
+        {user.userName}
       </Typography.Title>
       <Typography.Title
         level={3}
         style={{ margin: '5px 0 ' }}
         editable={{
           onChange: (value) => {
-            setEditableUser({ ...editableUser, lastName: value });
+            setEditableUser({ ...editableUser, userName: value });
           },
           onEnd: () => {
-            handleFieldSave('lastName');
+            handleFieldSave('userName');
           },
         }}
       >
-        {user.lastName}
+        {user.userName}
       </Typography.Title>
     </Card>
   );
